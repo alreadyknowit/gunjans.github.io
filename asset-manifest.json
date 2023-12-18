@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/alreadyknowit.gunjans.github.io/static/css/main.b69851a5.css",
-    "main.js": "/alreadyknowit.gunjans.github.io/static/js/main.2703caf3.js",
+    "main.js": "/alreadyknowit.gunjans.github.io/static/js/main.03cff5ea.js",
     "static/js/787.d9686a32.chunk.js": "/alreadyknowit.gunjans.github.io/static/js/787.d9686a32.chunk.js",
     "static/media/1.jpg": "/alreadyknowit.gunjans.github.io/static/media/1.aeb987812d109021aa98.jpg",
     "static/media/slider1.jpg": "/alreadyknowit.gunjans.github.io/static/media/slider1.79388104388c15c72fc7.jpg",
@@ -18,11 +18,11 @@
     "index.html": "/alreadyknowit.gunjans.github.io/index.html",
     "static/media/logo.svg": "/alreadyknowit.gunjans.github.io/static/media/logo.453d7b29d01c28cbe858893d2f2a48b7.svg",
     "main.b69851a5.css.map": "/alreadyknowit.gunjans.github.io/static/css/main.b69851a5.css.map",
-    "main.2703caf3.js.map": "/alreadyknowit.gunjans.github.io/static/js/main.2703caf3.js.map",
+    "main.03cff5ea.js.map": "/alreadyknowit.gunjans.github.io/static/js/main.03cff5ea.js.map",
     "787.d9686a32.chunk.js.map": "/alreadyknowit.gunjans.github.io/static/js/787.d9686a32.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b69851a5.css",
-    "static/js/main.2703caf3.js"
+    "static/js/main.03cff5ea.js"
   ]
 }
