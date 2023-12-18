@@ -1,0 +1,16 @@
+/* CustomSliderStyle.css */
+
+.slider-container {
+    width: 100vw;
+    max-height: 100vh; /* Ensure the slider doesn't overflow the screen vertically */
+  }
+  
+  .slider-container img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container width */
+    max-height: 100%; /* Ensure the image doesn't exceed its container height */
+    width: auto; /* Allow the image to shrink if its natural size is smaller than the container */
+    height: auto; /* Allow the image to shrink if its natural size is smaller than the container */
+    object-fit: cover; /* Maintain the aspect ratio and cover the entire container */
+  
+  }
+  

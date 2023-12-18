@@ -1,0 +1,15 @@
+/* CustomSlider.css */
+
+.custom-slider-container {
+    width: 100%;
+    height: 100vh; /* Set the height to 100% of the viewport height */
+    position: relative;
+    overflow: hidden;
+  }
+  
+  /* Add any additional styling for your slides if needed */
+  .slick-slide img {
+    width: 100%;
+    height: 100%;
+  }
+  

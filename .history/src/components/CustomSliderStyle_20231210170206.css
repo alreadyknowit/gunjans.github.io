@@ -1,0 +1,18 @@
+/* CustomSliderStyle.css */
+
+.slider-container {
+    width: 100vw;
+    max-height: 56.25vw; /* 16:9 aspect ratio */
+    overflow: hidden;
+  }
+  
+  .slider-container .slick-list {
+    overflow: visible; /* Allow the slider content to overflow */
+  }
+  
+  .slider-container .slider-image {
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+  }
+  

@@ -1,0 +1,61 @@
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import CustomNavBar from './components/CustomNavBar';
+import { Container, Row, Col } from 'reactstrap';
+import image1 from './images/1.jpg'
+import image2 from './images/2.jpg'
+import image3 from './images/3.jpg'
+import image4 from './images/4.jpg'
+
+import SummaryComponent  from './components/SummaryComponent';
+function App() {
+  return (
+    <div className="App">
+      <CustomNavBar />
+
+      {/* Main Content */}
+      <Container fluid>
+        {/* Section 1 */}
+        <SummaryComponent alt="Image 1"  image={image} ></SummaryComponent> 
+
+        {/* Section 2 */}
+        <Row>
+          <Col>
+            <img src={image2} alt="Image 2" className="img-fluid" />
+          </Col>
+          <Col>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </Col>
+        </Row>
+
+        {/* Section 3 */}
+        <Row>
+          <Col>
+            <img src={image3} alt="Image 3" className="img-fluid" />
+          </Col>
+          <Col>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </Col>
+        </Row>
+
+        {/* Section 4 */}
+        <Row>
+          <Col>
+            <img src={image4} alt="Image 4" className="img-fluid" />
+          </Col>
+          <Col>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </Col>
+        </Row>
+      </Container>
+    </div>
+  );
+}
+
+export default App;

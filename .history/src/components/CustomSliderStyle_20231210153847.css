@@ -1,0 +1,12 @@
+
+
+.slider-container {
+    height: 90vh;
+}
+
+@media screen and (max-width: 767px) {
+    .slider-container {
+        height: 50vh;
+        /* Set the height to 50% of the viewport height for mobile */
+    }
+}

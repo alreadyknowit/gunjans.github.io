@@ -1,0 +1,24 @@
+.summary-container {
+    background-color: rgb(198, 237, 198);
+    margin-top: 20px;
+    max-height: 300px;
+}
+
+.summary-container img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container width */
+    max-height: 100%; /* Ensure the image doesn't exceed its container height */
+    width: auto; /* Allow the image to shrink if its natural size is smaller than the container */
+    height: auto; /* Allow the image to shrink if its natural size is smaller than the container */
+    object-fit: cover; /* Maintain the aspect ratio and cover the entire container */
+  
+}
+
+p {
+    font-size: small;
+    text-align: center;
+}
+
+
+.summary-container .summary-image {
+    background-size: contain; /* Adjust this value to set the desired size */
+}

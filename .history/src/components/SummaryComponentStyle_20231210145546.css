@@ -1,0 +1,20 @@
+.summary-container {
+    background-color: rgb(198, 237, 198);
+    margin-bottom: 20px;
+    
+}
+
+img {
+    width: 400px;
+    height: 400px;
+}
+
+p {
+    font-size: small;
+    text-align: center;
+}
+
+
+.summary-container .summary-image {
+    background-size: contain; /* Adjust this value to set the desired size */
+}

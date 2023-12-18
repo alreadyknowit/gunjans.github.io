@@ -1,0 +1,28 @@
+.summary-container {
+    background-color: rgb(198, 237, 198);
+    margin-top: 20px;
+    max-width: 100vw;
+    max-height: 100vh;
+    padding: 20px; /* Add padding for better spacing */
+
+}
+
+.summary-container p {
+    text-align: center;
+    margin:auto;
+}
+
+.summary-container col {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: 'center';
+    height: 100vh;
+}
+
+
+
+.summary-container .summary-image {
+    background-size: cover;
+}
+

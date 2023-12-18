@@ -1,0 +1,12 @@
+/* CustomSliderStyle.css */
+body {
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    font-family: 'Poppins';
+ 
+}
+
+p{
+    font-size: 18px;
+}

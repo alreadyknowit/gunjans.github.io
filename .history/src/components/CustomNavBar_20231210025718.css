@@ -1,0 +1,32 @@
+.ml-auto{
+margin-left: auto;
+padding-right: 30px;
+}
+
+.navbar{
+    background-color: cornflowerblue ;
+}
+
+.navbar-brand{
+   padding-left: 10px;
+}
+
+.logo{
+    width: 80;
+    height: 50px;
+}
+/* CustomNavBar.css */
+
+/* Add a hover effect to the NavItem links */
+.navbar-nav .nav-item .nav-link:hover {
+    color: #ff5733; /* Change the color of the text on hover */
+    background-color: #f8f9fa; /* Change the background color on hover */
+    /* You can also add other styles like border, padding, etc. */
+    border-radius: 200;
+  }
+  
+  /* Optional: Add a transition for smoother effect */
+  .navbar-nav .nav-item .nav-link {
+    transition: background-color 0.3s ease; /* Adjust the duration and timing function as needed */
+  }
+  

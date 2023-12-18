@@ -1,0 +1,26 @@
+.ml-auto{
+margin-left: auto;
+padding-right: 30px;
+}
+
+.navbar{
+    background-color: cornflowerblue ;
+}
+
+.navbar-brand{
+   padding-left: 10px;
+}
+
+.logo{
+    width: 80;
+    height: 50px;
+}
+.navbar-nav .nav-item .nav-link:hover {
+    color: #3369ff; /* Change the color to your desired hover color */
+    /* You can also add other styles like background color, border, etc. */
+  }
+  /* Optional: Add a transition for smoother effect */
+  .navbar-nav .nav-item .nav-link {
+    transition: color 0.3s ease; /* Adjust the duration and timing function as needed */
+  }
+  

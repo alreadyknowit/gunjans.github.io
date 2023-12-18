@@ -1,0 +1,14 @@
+/* CustomSliderStyle.css */
+
+.slider-container {
+    width: 100vw;
+    max-height: 100vh; /* Ensure the slider doesn't overflow the screen vertically */
+    
+  }
+  
+  .slider-container img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  

@@ -1,0 +1,9 @@
+.ml-auto {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.custom-navbar{
+    justify-content: space-evenly;
+}

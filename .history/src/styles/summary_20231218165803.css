@@ -1,0 +1,20 @@
+.summary-container {
+    background-color: rgb(198, 237, 198);
+    margin-top: 20px;
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+p {
+    text-align: center;
+}
+
+
+.summary-container .summary-image {
+    background-size: cover;
+}
+
+.mx-auto {
+    margin-left: auto;
+    padding-right: 30px;
+}

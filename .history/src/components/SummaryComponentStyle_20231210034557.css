@@ -1,0 +1,14 @@
+.summary-container {
+    background-color: rgb(198, 237, 198);
+}
+
+img {
+    width: 400;
+    height: 400px;
+}
+
+p {
+    font-size: small;
+    text-align: center;
+}
+
